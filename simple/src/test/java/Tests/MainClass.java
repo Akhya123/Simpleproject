@@ -39,13 +39,15 @@ public class MainClass {
 		ConfigReader CR=new ConfigReader();
 		String Bname =CR.getprop("browser");
 		System.out.println(Bname);
-	if(Bname.equalsIgnoreCase("chrome")) {
+		
+		if(Bname.equalsIgnoreCase("chrome")) {
 			
 			
 				WebDriverManager.chromedriver().setup();
 				driver= new ChromeDriver();
 				
 				System.out.println("inside chrome");
+				System.out.println("inside for Git edit ");
 		
 			
 		}
