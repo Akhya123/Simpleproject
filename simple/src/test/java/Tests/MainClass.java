@@ -47,7 +47,7 @@ public class MainClass {
 				driver= new ChromeDriver();
 				
 				System.out.println("inside chrome");
-				System.out.println("inside for Git edit ");
+				
 		
 			
 		}
